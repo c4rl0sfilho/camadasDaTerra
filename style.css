@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding-right: 4rem;
+    padding-top: 4rem;
+}
+.title h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4rem;
+    letter-spacing: 12px;
+    color: rgb(255, 238, 0);
+}
+button{
+    width: 15rem;
+    height: 5rem;
+    background: black;
+    border: solid rgb(255, 238, 0) 8px;
+    border-radius: 15px;
+    font-size: 2rem;
+    cursor: pointer;
+    color: rgb(255, 238, 0);
+}
+.content{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+    padding-top: 6rem;
+    padding-right: 15rem;
+    align-items: end;
+    
+}

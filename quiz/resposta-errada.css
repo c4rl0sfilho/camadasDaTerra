@@ -1,0 +1,11 @@
+.textinho{
+    font-size: 350%;
+    color: aliceblue;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/universeBackground.jpg);
+}
